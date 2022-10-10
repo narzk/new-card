@@ -1,0 +1,64 @@
+.page{
+    display: flex;
+    justify-content: center;
+}
+.page_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.block{
+    flex: 1;
+    background-color: #ccc;
+    height: 100vh;
+}
+
+/* Header Style */
+
+.header{
+    position:relative;
+    width: 100%;
+    
+}
+.header_bg{
+    width: 100%;
+}
+
+/* cards style  */
+
+.card_back{
+    position: absolute;
+    top:50px;
+    left:30%
+}
+.card_front{
+    position: absolute;
+    top: 170px;
+    left:20%
+}
+.card_size{
+    width: 80%;
+    height: 80%;
+}
+.card_number{
+    position: absolute;
+    top:50%;
+    left:10%;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.card_name{
+    position: absolute;
+    top:80%;
+    left:10%;
+    font-size: 0.7rem;
+    color: #fff;
+}
+.card_date{
+    position: absolute;
+    top:80%;
+    left:65%;
+    font-size: 0.7rem;
+    color: #fff;
+}
